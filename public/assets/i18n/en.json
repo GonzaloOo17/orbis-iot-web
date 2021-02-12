@@ -1,0 +1,83 @@
+{
+    "device": "Device",
+    "connectivity": "Connectivity",
+    "password": "Password",
+    "wifi": "Wifi",
+    "power": "Power",
+    "datetime": "Datetime",
+    "scheduler": "Scheduler",
+    "RFID-mode": "Modo touch / RFID",
+    "OCPP": "OCPP",
+    "update-firmware": "Firmware update",
+    "historics": "Historics",
+    "login": {
+        "error": "Incorrect user/password"
+    },
+    "register":{
+        "error-repeated": "The email introduced is already registered",
+        "error": "There was an error in the register process"
+    },
+    "profile":{
+        "title": "User info"
+    },
+    "admin": {
+        "link": "LINK",
+        "search": "Search"
+    },
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "navbar":{
+        "search-devices": "Search devices",
+        "assign-devices": "Assign devices",
+        "title-1": "Areas"
+    },
+    "settings": {
+        "accumulated": "Accumulated",
+        "overwrite": "Overwrite",
+        "restore": "Restore",
+        "state": "State",
+        "homePower": "Home power",
+        "evsePower": "Charger power",
+        "limitPower": "Limit power",
+        "home": "Home",
+        "car": "Car",
+        "successMessage": "Updated successfully",
+        "consumptions": "Consumptions",
+        "charge-count": "Charge count",
+        "connectivity":{
+            "title": "Connectivity",
+            "description": "Wifi access point data to which the charger is connected.",
+            "ssid-conn": "SSID connection",
+            "pass-conn": "Connection password"
+        },
+        "password": {
+            "title": "Password",
+            "description": "Change the password to access the charger",
+            "old-password": "Old password",
+            "new-password": "New password",
+            "re-new-password": "Confirm the new password"
+        },
+        "wifi":{
+            "title": "Wifi settings",
+            "ipaddress": "IP address",
+            "subnetmask": "Subnet mask",
+            "gateway": "Gateway",
+            "macaddress": "MAC address",
+            "dnsserver": "DNS server"
+        },
+        "ocpp": {
+            "title": "OCPP Server",
+            "description": "OCPP communications server data",
+            "port": "Port"
+        },
+        "power": {
+            "title": "Power",
+            "limitPower": "Limit power",
+            "minPower": "Default power"
+        },
+        "rfid":{
+            "title": "Touch / RFID",
+            "description": ""
+        }
+    }
+}

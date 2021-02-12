@@ -1,0 +1,76 @@
+{
+    "device": "Dispositivo",
+    "connectivity": "Conectividad",
+    "password": "Contraseña",
+    "wifi": "Wifi",
+    "power": "Potencia",
+    "datetime": "Fecha",
+    "scheduler": "Programación horaria",
+    "RFID-mode": "Modo touch / RFID",
+    "OCPP": "OCPP",
+    "historics": "Históricos",
+    "update-firmware": "Actualización de firmware",
+    "login": {
+        "error": "Usuario o contraseña incorrectos"
+    },
+    "register":{
+        "error-repeated": "El email introducido ya está registrado",
+        "error": "Hubo un error en el proceso de registro"
+    },
+    "profile":{
+        "title": "Información de perfil"
+    },
+    "admin": {
+        "link": "Asignar",
+        "search": "Buscar"
+    },
+    "connected": "Conectado",
+    "disconnected": "Desconectado",
+    "settings": {
+        "overwrite": "Sobreescribir",
+        "restore": "Restablecer",
+        "state": "Estado",
+        "homePower": "Potencia de casa",
+        "evsePower": "Potencia del cargador",
+        "limitPower": "Potencia límite",
+        "home": "Hogar",
+        "car": "Coche",
+        "successMessage": "Actualizado correctamente",
+        "consumptions": "Consumos",
+        "charge-count": "Número de cargas",
+        "connectivity":{
+            "title": "Conectividad",
+            "description": "Punto de acceso Wifi al que el cargador está conectado.",
+            "ssid-conn": "Conexión SSID",
+            "pass-conn": "Contraseña de conexión"
+        },
+        "password": {
+            "title": "Contraseña",
+            "description": "Cambia la contraseña de acceso al cargador",
+            "old-password": "Contraseña antigua",
+            "new-password": "Contraseña nueva",
+            "re-new-password": "Confirmar la contraseña"
+        },
+        "wifi":{
+            "title": "Configuración wifi",
+            "ipaddress": "Dirección IP",
+            "subnetmask": "Máscara de subnet",
+            "gateway": "Puerta de acceso",
+            "macaddress": "Dirección MAC",
+            "dnsserver": "Servidor DNS"
+        },
+        "ocpp": {
+            "title": "Servidor OCPP",
+            "description": "Servidor de comunicaciones OCPP",
+            "port": "Puerto"
+        },
+        "power": {
+            "title": "Potencia",
+            "limitPower": "Potencia límite",
+            "minPower": "Mínima potencia"
+        },
+        "rfid":{
+            "title": "Táctil / RFID"
+        }
+    }
+}
